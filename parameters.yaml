@@ -1,0 +1,4 @@
+parameters:
+    liip_imagine.twig.extension.class: App\Twig\ImageExtension
+    liip_imagine.cache.resolver.flysystem.class: App\ImageResolver\Base64FlysystemResolver
+    liip_imagine.binary.loader.flysystem.class: App\ImageResolver\Base64FlysystemLoader
